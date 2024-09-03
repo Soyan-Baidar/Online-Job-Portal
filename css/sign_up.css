@@ -1,0 +1,87 @@
+/* Custom styles for Sign Up form */
+body {
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .form-signin {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 500px; /* Maximum width of the form */
+    padding: 30px; /* Increase padding for larger form */
+  }
+  
+  .logo {
+    width: 200px; /* Adjust the size of the logo */
+    height: 200px;
+    border-radius: 50%; /* Make the logo circular */
+    margin-bottom: 20px; /* Add some space below the logo */
+  }
+  
+  .register-link {
+    display: block;
+    margin-top: 20px; /* Add margin to the top of the link */
+  }
+  
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #007bff; /* Blue color for the heading */
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px; /* Add margin-bottom to create space between labels */
+    color: #555; /* Medium dark text color */
+  }
+  
+  
+  
+  .input-field {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add space between input fields */
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border color on focus */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745; /* Green button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838; /* Darker green color on hover */
+  }
+  
+  .register-link {
+    display: block;
+    margin-top: 20px; /* Add space between button and link */
+    text-decoration: none;
+    color: #007bff; /* Blue color for the link */
+  }
+  
+  .register-link:hover {
+    color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  .text-muted {
+    color: #6c757d; /* Gray color for the footer text */
+  }
+  

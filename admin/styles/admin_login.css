@@ -1,0 +1,151 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Light gray background */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.login-container {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 500px; /* Maximum width of the form */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  background-color: #fff; /* White background */
+  text-align: center; /* Center align the content */
+  transform: scale(0.8);
+  animation: popIn 0.5s ease-out forwards;
+}
+
+@keyframes popIn {
+  to {
+    transform: scale(1);
+  }
+}
+
+.logo {
+  width: 150px; /* Adjust the size of the logo */
+  height: auto;
+  margin-bottom: 20px; /* Add some space below the logo */
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555; /* Medium dark text color */
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px; /* Increase the padding for larger input fields */
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4caf50; /* Green border color on focus */
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px; /* Increase the padding for larger buttons */
+  font-size: 18px;
+  color: #fff;
+  background-color: #4caf50; /* Green button color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px);
+}
+
+.form-signin {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 500px; /* Maximum width of the form */
+  padding: 30px; /* Increase padding for larger form */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.form-signin img {
+  width: 120px; /* Adjust the size of the logo */
+  height: 120px;
+  border-radius: 50%; /* Make the logo circular */
+  border: 3px solid #007bff; /* Add a border with primary color */
+  margin-bottom: 20px; /* Add some space below the logo */
+  animation: rotateIn 1s ease-in-out;
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

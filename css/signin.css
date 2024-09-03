@@ -1,0 +1,115 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+  }
+  
+  .login-container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 500px; /* Maximum width of the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #fff; /* White background */
+    text-align: center; /* Center align the content */
+  }
+  
+  .logo {
+    width: 150px; /* Adjust the size of the logo */
+    height: auto;
+    margin-bottom: 20px; /* Add some space below the logo */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Medium dark text color */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 15px; /* Increase the padding for larger input fields */
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #4caf50; /* Green border color on focus */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 15px; /* Increase the padding for larger buttons */
+    font-size: 18px;
+    color: #fff;
+    background-color: #4caf50; /* Green button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .form-signin {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 500px; /* Maximum width of the form */
+    padding: 30px; /* Increase padding for larger form */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .form-signin img {
+    width: 120px; /* Adjust the size of the logo */
+    height: 120px;
+    border-radius: 50%; /* Make the logo circular */
+    border: 3px solid #007bff; /* Add a border with primary color */
+    margin-bottom: 20px; /* Add some space below the logo */
+  }
+  
+  /* Additional styling for vibrant colors of letters */
+  h2 {
+    color: #007bff; /* Vibrant blue for headings */
+  }
+  
+  label {
+    color: #555; /* Medium dark text color */
+  }
+  
+  .submit-btn {
+    background-color: #007bff; /* Vibrant blue for submit button */
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  /* Custom styles for Register for an Account link */
+
+.register-link {
+  display: block;
+  margin-top: 40px; /* Adjust the margin-top value as needed */
+  text-decoration: none;
+  color: #007bff; /* Blue color */
+  font-weight: bold;
+}
+
+.register-link:hover {
+  color: #0056b3; /* Darker blue color on hover */
+}
+
+
+  
